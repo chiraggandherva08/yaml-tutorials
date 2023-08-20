@@ -28,3 +28,9 @@ rolls and names: !!map {
   4: sp yadav,
   5: ankit verma
 }
+  
+#sets - no duplicate values.
+unique-ids: !!set
+  ? 110021
+  ? 100211
+  ? 121201
