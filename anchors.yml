@@ -1,0 +1,10 @@
+likings: &all
+  &favfruit fav fruit: apple
+  &favcar fav car: rolls royce
+
+chirag:
+  <<: *all
+
+vivek:
+  fav fruit: mango
+  <<: *favcar
