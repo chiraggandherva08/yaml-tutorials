@@ -1,0 +1,2 @@
+bool: No # n, N, FALSE, False and false are also valid.
+yes_or_no: Yes # Y, y, TRUE, True and true are also valid.

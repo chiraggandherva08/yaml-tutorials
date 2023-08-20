@@ -1,0 +1,30 @@
+#sequence data structure.
+names: !!seq
+  - chirag
+  - priya
+  - lithvik
+  - ekta
+  - prashant
+  - deepanshi
+  - kusum
+  - harveer
+
+games: !!seq [bgmi, table tennis, cricket]
+
+# sequence containing empty values is called sparce sequence
+sparce seq:
+  - hello
+  - hii
+  -
+  - how are you?
+  - NULL
+
+
+#maps
+rolls and names: !!map {
+  1: chirag,
+  2: gaurav,
+  3: rakesh,
+  4: sp yadav,
+  5: ankit verma
+}

@@ -1,0 +1,21 @@
+zero: !!int 0 #integers
+marks: !!float 99.5 #floating point numbers
+binary: !!int 0b101 #binary numbers
+octal: !!int 0101 #octal numbers
+hexadecimal: !!int 0x1032 #hexadecimal numbers
+comma_vals: !!int +101_100 #comma seperated values
+
+name: !!string chirag gandherva #strings
+
+boole: !!bool TRUE #booleans
+
+infinity: !!int .inf #infinity
+
+not a number: .nan
+
+null_values: !!null NULL #null, Null and ~ will also work
+~: this is a null key
+
+date: 2002-14-30 #data
+
+exp: 3E12

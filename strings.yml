@@ -1,0 +1,14 @@
+# String Datatype.
+name: "My name is chirag gandherva"
+age: i am 20 years old.
+
+# storing multiline string.
+bio: |
+my hobbies are
+coding and playing
+BGMI.
+
+message: >
+it will be treated as 
+one silgle
+line

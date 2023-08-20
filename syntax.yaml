@@ -1,0 +1,54 @@
+# key value pairs.
+---
+"Name": "Chirag Gandherva"
+"Phone No.": 8595047946
+35: "Roll number"
+
+# JSON Equivalent
+# {
+#   "35": "Roll number", 
+#   "Phone No.": 8595047946, 
+#   "Name": "Chirag Gandherva"
+# }
+
+# No Multiline Comments.
+
+# Lists.
+---
+- "My"
+- "Name"
+- "Is"
+- "Chirag"
+- "Gandherva"
+myname: [My, Name, Is Chirag, Gandherva]
+
+# JSON Equivalent
+# [
+#   "My", 
+#   "Name", 
+#   "Is", 
+#   "Chirag", 
+#   "Gandherva"
+# ]
+
+# Yaml is Case Sensitive.
+
+# This is block style.
+---
+cities:
+  - Mumbai
+  - New Delhi
+  - Amritsar
+
+# JSON Equivalent.
+# {
+#   "cities": [
+#     "Mumbai", 
+#     "New Delhi", 
+#     "Amritsar"
+#   ]
+# }
+
+--- # it is used to differentiate between multiple documents in YAML.
+
+... # it specifies that the document is ended.
