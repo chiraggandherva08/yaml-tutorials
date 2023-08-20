@@ -1,0 +1,47 @@
+school:
+
+  name: KV sector 12 Dwarka
+
+  principal: sahil saxena
+
+  students:
+
+    student1:
+      name: chirag gandherva
+      roll no: 23
+      marks: 100
+    
+    student2:
+      name: ayush rajput
+      roll no: 3
+      marks: 40
+    
+    student3:
+      name: harsh shukla
+      roll no: 5
+      marks: 50
+
+# JSON Eqv.
+# {
+#   "school": {
+#     "students": {
+#       "student3": {
+#         "name": "harsh shukla", 
+#         "roll no": 5, 
+#         "marks": 50
+#       }, 
+#       "student2": {
+#         "name": "ayush rajput", 
+#         "roll no": 3, 
+#         "marks": 40
+#       }, 
+#       "student1": {
+#         "name": "chirag gandherva", 
+#         "roll no": 23, 
+#         "marks": 100
+#       }
+#     }, 
+#     "name": "KV sector 12 Dwarka", 
+#     "principal": "sahil saxena"
+#   }
+# }
